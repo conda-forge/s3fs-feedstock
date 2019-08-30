@@ -1,5 +1,5 @@
 {% set version = "0.3.4" %}
- 
+
 package:
   name: s3fs
   version: "{{ version }}"
@@ -42,3 +42,4 @@ extra:
     - martindurant
     - mrocklin
     - koverholt
+    - tomaugspurger
