@@ -119,4 +119,5 @@ Feedstock Maintainers
 * [@koverholt](https://github.com/koverholt/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
+* [@tomaugspurger](https://github.com/tomaugspurger/)
 
