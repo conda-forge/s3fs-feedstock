@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.5
     - boto3
-    - fsspec
+    - fsspec >=0.6.0
 
 
 test:
