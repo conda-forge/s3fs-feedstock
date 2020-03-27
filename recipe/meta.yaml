@@ -1,13 +1,13 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: s3fs
-  version: "{{ version }}"
+  version: {{ version }}
 
 source:
   fn: s3fs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/s3fs/s3fs-{{ version }}.tar.gz
-  sha256: 504a41ecb9edf0bd7798847b61839954e50508c5235ec7ee48c539ce46b4fa18
+  sha256: 3972e7edf5f02960a043928e155cc15616c6dee3b5a3083ad331c621d96ff673
 
 build:
   number: 0
@@ -34,7 +34,7 @@ test:
 about:
   home: http://s3fs.readthedocs.io/en/latest/
   license: BSD 3-Clause
-  summary: 'Convenient Filesystem interface over S3'
+  summary: Convenient Filesystem interface over S3
   license_file: LICENSE.txt
 
 extra:
