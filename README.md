@@ -5,7 +5,7 @@ Home: http://s3fs.readthedocs.io/en/latest/
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Convenient Filesystem interface over S3
 
