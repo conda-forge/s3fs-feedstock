@@ -16,15 +16,15 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - python >=3.6
     - setuptools
-    - boto3
     - pip
 
   run:
-    - python >=3.5
-    - boto3
-    - fsspec >=0.6.0
+    - python >=3.6
+    - aiobotocore
+    - botocore
+    - fsspec >=0.8.0
 
 
 test:
