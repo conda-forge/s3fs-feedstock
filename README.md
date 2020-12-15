@@ -5,11 +5,9 @@ Home: http://s3fs.readthedocs.io/en/latest/
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s3fs-feedstock/blob/master/LICENSE.txt)
 
 Summary: Convenient Filesystem interface over S3
-
-
 
 Current build status
 ====================
