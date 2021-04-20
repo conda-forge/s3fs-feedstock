@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "2021.4.0" %}
 
 package:
   name: s3fs
@@ -7,7 +7,7 @@ package:
 source:
   fn: s3fs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/s3fs/s3fs-{{ version }}.tar.gz
-  sha256: 69a1226359b46137676d94e328ee26fb327f40199ce5b19d38bc276d4e0029ac
+  sha256: bd2c610a8419f3137bae18c138fc22281c2a3796812f854334974903f35962c5
 
 build:
   number: 0
