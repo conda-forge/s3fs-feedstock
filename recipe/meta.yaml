@@ -24,16 +24,20 @@ requirements:
     - python >=3.6
     - aiobotocore
     - botocore
-    - fsspec >=0.9.0
+    - fsspec ==2021.04.0
 
 
 test:
+  requires:
+    - pip
   imports:
     - s3fs
+  commands:
+    - pip check
 
 about:
   home: http://s3fs.readthedocs.io/en/latest/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   summary: Convenient Filesystem interface over S3
   license_file: LICENSE.txt
 
