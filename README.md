@@ -3,7 +3,7 @@ About s3fs
 
 Home: http://s3fs.readthedocs.io/en/latest/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s3fs-feedstock/blob/master/LICENSE.txt)
 
