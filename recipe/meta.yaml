@@ -22,7 +22,7 @@ requirements:
 
   run:
     - python >=3.6
-    - aiobotocore ==1.4.0
+    - aiobotocore ==1.4.1
     - botocore
     - fsspec ==2021.9.0
 
