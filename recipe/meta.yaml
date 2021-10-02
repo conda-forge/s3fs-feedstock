@@ -24,7 +24,7 @@ requirements:
     - python >=3.6
     - aiobotocore ==1.4.1
     - botocore
-    - fsspec ==2021.9.0
+    - fsspec ==2021.10.0
 
 
 test:
