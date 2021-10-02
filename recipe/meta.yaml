@@ -1,4 +1,4 @@
-{% set version = "2021.9.0" %}
+{% set version = "2021.10.0" %}
 
 package:
   name: s3fs
@@ -7,10 +7,10 @@ package:
 source:
   fn: s3fs-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/s3fs/s3fs-{{ version }}.tar.gz
-  sha256: 9f80fccea6870d4ff65dae77bad01a818320cbcc3d8c2b4b0695341e1343c92e
+  sha256: 99274c98fe5bea9bbde78190c41adbd1b1208722cb2ad48677a68f8473f0395d
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -24,7 +24,7 @@ requirements:
     - python >=3.6
     - aiobotocore ==1.4.1
     - botocore
-    - fsspec ==2021.9.0
+    - fsspec ==2021.10.0
 
 
 test:

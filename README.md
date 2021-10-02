@@ -9,6 +9,10 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s3fs-feedstock/
 
 Summary: Convenient Filesystem interface over S3
 
+Development: https://github.com/dask/s3fs
+
+Documentation: https://s3fs.readthedocs.io/en/latest/
+
 Current build status
 ====================
 
@@ -115,7 +119,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@koverholt](https://github.com/koverholt/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
