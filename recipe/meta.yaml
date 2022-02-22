@@ -24,7 +24,7 @@ requirements:
     - python >=3.6
     - aiobotocore ==2.1.0
     - botocore
-    - fsspec ==2022.1.0
+    - fsspec ==2022.2.0
     - aiohttp >=3.7.1,<4
 
 
