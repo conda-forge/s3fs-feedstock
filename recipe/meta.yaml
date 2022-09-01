@@ -19,9 +19,9 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - aiobotocore >=2.3.4,<2.4
+    - aiobotocore >=2.4.0,<2.4.1
     - aiohttp
-    - fsspec ==2022.7.1
+    - fsspec ==2022.8.2
     - python >=3.7
 
 test:
