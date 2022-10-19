@@ -21,7 +21,7 @@ requirements:
   run:
     - aiobotocore >=2.4.0,<2.4.1
     - aiohttp
-    - fsspec ==2022.8.2
+    - fsspec ==2022.10.0
     - python >=3.7
 
 test:
