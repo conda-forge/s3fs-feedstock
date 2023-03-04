@@ -1,11 +1,11 @@
-About s3fs
-==========
+About s3fs-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s3fs-feedstock/blob/main/LICENSE.txt)
 
 Home: http://s3fs.readthedocs.io/en/latest/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s3fs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convenient Filesystem interface over S3
 
