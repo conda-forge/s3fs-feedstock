@@ -1,5 +1,5 @@
 {% set name = "s3fs" %}
-{% set version = "2023.9.2" %}
+{% set version = "2023.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/s3fs-{{ version }}.tar.gz
-  sha256: 64cccead32a816422dd9ae1d693c5d6354d99f64ae26c56388f1d8e1c7858321
+  sha256: c40f238ccc9fefff3f6d09d4b5762abd6c913ba42e1a328976b54d038901b835
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - aiobotocore >=2.5.4,<2.6.0
+    - aiobotocore >=2.7.0,<2.7.1
     - aiohttp
     - fsspec =={{ version }}
     - python >=3.8
