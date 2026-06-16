@@ -1,5 +1,5 @@
 {% set name = "s3fs" %}
-{% set version = "2026.4.0" %}
+{% set version = "2026.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/s3fs-{{ version }}.tar.gz
-  sha256: 5bdce0abb00b0435ee150807a45fea727451dbc22de4cbc116464f8504ab9d37
+  sha256: b28de7082d0a4f72392884bdc497e34a4a1582f675d214c7da0acf6e950a0083
 
 build:
   noarch: python
